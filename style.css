@@ -1,0 +1,98 @@
+body{
+            margin: 0px;
+            width: 100%;
+        }
+        #ready{
+            display: none;
+            background-color: #fff;
+            color: #000080;
+            padding: 15px 10px;
+            border: 5px dotted #000080;
+        }
+        #ready button{
+            background-color: #000080;
+            color: #fff;
+            font-size: 20px;
+            padding: 8px 10px;
+            border: 0px;
+        }
+
+        #ready button:hover{
+            color: #000080;
+            background-color: blue;
+        }
+        body{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/hd-wallpaper-gbdc7f1b36_1920.jpg);
+            background-size: cover cover;
+            background-repeat: no-repeat;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            margin: 0px;
+        }
+
+        
+
+        article > div{
+            padding: 50px 5%;
+        }
+
+        .logo{
+            width: 200px;
+            margin-bottom: 40px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 100;
+            color: #eee;
+        }
+
+        #sum{
+            margin: auto;
+            margin-top: 100px;
+            padding: 10px 10px;
+            background-color: #000080;
+            border-radius: 5px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            max-width: 500px;
+        }
+
+        input{
+            font-size: 25px;
+        }
+        #sum button{
+            background-color: #fff;
+            color: #000080;
+            font-size: 20px;
+            padding: 8px 10px;
+            border: 0px;
+        }
+
+        #sum button:hover{
+            color: #000080;
+            background-color: blue;
+        }
+        .load{
+            display: none;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+            justify-content: center;
+            align-items: center;
+        }
+        .load img{
+            width: 200px;
+            height: 200px;
+        }
+        #ready p{
+            color: #000080;
+        }
